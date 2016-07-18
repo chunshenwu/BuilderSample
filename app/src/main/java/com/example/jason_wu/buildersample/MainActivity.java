@@ -9,7 +9,7 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 import com.example.jason_wu.buildersample.ui.fragment.FormatTextFragment;
-import com.example.jason_wu.buildersample.ui.fragment.SpannableFragment;
+import com.example.jason_wu.buildersample.ui.fragment.SpannableTextFragment;
 
 import java.util.ArrayList;
 
@@ -74,7 +74,7 @@ class MyFragmentPagerAdapter extends FragmentPagerAdapter {
 
     private void initFragmentList() {
         mFragmentList.add(new FormatTextFragment());
-        mFragmentList.add(new SpannableFragment());
+        mFragmentList.add(new SpannableTextFragment());
     }
 
     @Override

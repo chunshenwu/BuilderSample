@@ -15,7 +15,7 @@ import com.example.jason_wu.buildersample.builders.html.FormatTextBuilder;
 /**
  * Created by jason_wu on 7/18/16.
  */
-public class SpannableFragment extends Fragment {
+public class SpannableTextFragment extends Fragment {
     @Nullable
 
     private View mRootView;
@@ -39,12 +39,12 @@ public class SpannableFragment extends Fragment {
     private void initTextView() {
         float time = 125;
 
-        ((TextView)mRootView.findViewById(R.id.appendprefix_tv)).setText(new TimeSpannableBuilder(time, 1.0f).appendPreFix("PPP").appendPlus().getSpannable());
+        ((TextView)mRootView.findViewById(R.id.appendprefix_tv)).setText(new TimeSpannableBuilder(time, 1.0f).appendPreFix("Prefix_").appendPlus().getSpannable());
 
 
-        ((TextView)mRootView.findViewById(R.id.appendplus_tv)).setText(new TimeSpannableBuilder(time, 0.75f).appendPlus().appendPreFix("Prefix").appendSuffix("Suffix").getSpannable());
+        ((TextView)mRootView.findViewById(R.id.appendplus_tv)).setText(new TimeSpannableBuilder(time, 0.75f).appendPlus().getSpannable());
 
-        ((TextView)mRootView.findViewById(R.id.appendplus_and_appendsuffix_tv)).setText(new TimeSpannableBuilder(time, 0.5f).appendPlus().appendPreFix("Prefix").appendSuffix("Suffix").getSpannable());
+        ((TextView)mRootView.findViewById(R.id.appendplus_and_appendsuffix_tv)).setText(new TimeSpannableBuilder(time, 0.5f).appendPlus().appendSuffix("Suffix_").getSpannable());
 
 
         ((TextView)mRootView.findViewById(R.id.keep_mins_tv)).setText(new TimeSpannableBuilder(time, 0.25f).appendPlus().keepMins().getSpannable());
