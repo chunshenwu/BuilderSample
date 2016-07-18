@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BuilderSample</string>
+
+    <string name="format_text">Sample text with integer %1$s.</string>
+</resources>
