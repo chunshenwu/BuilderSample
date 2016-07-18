@@ -29,7 +29,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Demo 1: Bold"
+        android:text="Demo 2: Bold"
         android:background="@android:color/darker_gray"
         />
 
@@ -43,7 +43,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Demo 1: Color"
+        android:text="Demo 3: Color"
         android:background="@android:color/darker_gray"
         />
 
@@ -57,7 +57,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Demo 1: Bold and Color"
+        android:text="Demo 4: Bold and Color"
         android:background="@android:color/darker_gray"
         />
 

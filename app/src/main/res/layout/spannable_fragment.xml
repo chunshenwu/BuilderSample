@@ -29,7 +29,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Demo 1: appendPlus"
+        android:text="Demo 2: appendPlus"
         android:background="@android:color/darker_gray"
         />
 
@@ -43,7 +43,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Demo 1: appendPlus and appendSuffix"
+        android:text="Demo 3: appendPlus and appendSuffix"
         android:background="@android:color/darker_gray"
         />
 
@@ -57,7 +57,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Demo 1: keepMins"
+        android:text="Demo 4: keepMins"
         android:background="@android:color/darker_gray"
         />
 
